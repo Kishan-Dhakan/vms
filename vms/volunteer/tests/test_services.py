@@ -29,9 +29,9 @@ class VolunteerMethodTests(unittest.TestCase):
             'first_name': "Yoshi",
             'last_name': "Turtle",
             'address': "Mario Land",
-            'city': city,
-            'state': state,
-            'country': country,
+            'city': "Gandhinagar",
+            'state': "Gujarat",
+            'country': "India",
             'phone_number': "2374983247",
             'email': "yoshi@nintendo.com"
         }
@@ -40,9 +40,9 @@ class VolunteerMethodTests(unittest.TestCase):
             'first_name': "John",
             'last_name': "Doe",
             'address': "7 Alpine Street",
-            'city': city,
-            'state': state,
-            'country': country,
+            'city': "Gandhinagar",
+            'state': "Gujarat",
+            'country': "India",
             'phone_number': "23454545",
             'email': "john@test.com"
         }
@@ -51,9 +51,9 @@ class VolunteerMethodTests(unittest.TestCase):
             'first_name': "Ash",
             'last_name': "Ketchum",
             'address': "Pallet Town",
-            'city': city,
-            'state': state,
-            'country': country,
+            'city': "Gandhinagar",
+            'state': "Gujarat",
+            'country': "India",
             'phone_number': "23454545",
             'email': "ash@pikachu.com"
         }
@@ -243,9 +243,9 @@ class DeleteVolunteerTest(unittest.TestCase):
             'first_name': "Yoshi",
             'last_name': "Turtle",
             'address': "Mario Land",
-            'city': city,
-            'state': state,
-            'country': country,
+            'city': "Gandhinagar",
+            'state': "Gujarat",
+            'country': "India",
             'phone_number': "2374983247",
             'email': "yoshi@nintendo.com"
         }
@@ -254,9 +254,9 @@ class DeleteVolunteerTest(unittest.TestCase):
             'first_name': "John",
             'last_name': "Doe",
             'address': "7 Alpine Street",
-            'city': city,
-            'state': state,
-            'country': country,
+            'city': "Gandhinagar",
+            'state': "Gujarat",
+            'country': "India",
             'phone_number': "23454545",
             'email': "john@test.com"
         }
@@ -265,9 +265,9 @@ class DeleteVolunteerTest(unittest.TestCase):
             'first_name': "Ash",
             'last_name': "Ketchum",
             'address': "Pallet Town",
-            'city': city,
-            'state': state,
-            'country': country,
+            'city': "Gandhinagar",
+            'state': "Gujarat",
+            'country': "India",
             'phone_number': "23454545",
             'email': "ash@pikachu.com"
         }
