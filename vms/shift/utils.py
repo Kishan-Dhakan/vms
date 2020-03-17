@@ -3,7 +3,6 @@ from cities_light.models import Country, Region, City
 
 # Django
 from django.contrib.auth.models import User
-from django.shortcuts import get_object_or_404
 
 # local Django
 from administrator.models import Administrator
@@ -225,7 +224,7 @@ def get_report_list(duration_list, report_list, total_hours):
 
 
 def get_country_by_name(country_name):
-    country = get_object_or_404(Country, name=country_name)
+    country = Country.objects.get(name=country_name)
     return country
 
 
