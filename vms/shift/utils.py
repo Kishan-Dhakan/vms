@@ -224,7 +224,7 @@ def get_report_list(duration_list, report_list, total_hours):
 
 
 def get_country_by_name(country_name):
-    country = Country.objects.filter(name=country_name)
+    country = Country.objects.get(name=country_name)
     return country
 
 
