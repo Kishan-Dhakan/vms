@@ -29,7 +29,7 @@ script:
   - cd vms
   - python manage.py makemigrations cities_light auth volunteer administrator organization event job shift registration
   - python manage.py migrate --noinput --traceback --settings=vms.settings
-  - python manage.py cities_light --force-import-all
+  - python manage.py cities_light
   - flake8
   - coverage run --source='.' manage.py test volunteer -v 2
   - coverage report -m
