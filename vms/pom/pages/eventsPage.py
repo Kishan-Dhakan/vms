@@ -183,7 +183,7 @@ class EventsPage(BasePage):
         return self.element_by_xpath(self.elements.EVENT_END_DATE).text
 
     def get_warning_context(self):
-        return self.element_by_xpath(self.elements.WARNING_CONTEXT).text
+        return self.element_by_class_name(self.elements.WARNING_CONTEXT).text
 
     def get_danger_message(self):
         return self.element_by_class_name(self.elements.DANGER_BOX)

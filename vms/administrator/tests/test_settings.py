@@ -332,7 +332,7 @@ class Settings(LiveServerTestCase):
             self.live_server_url + settings.event_list_page
         )
         self.assertEqual(
-            settings.get_warning_context(),
+            settings.get_warning_context(self),
             "Start date should be today's date or later."
         )
 
