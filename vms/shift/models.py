@@ -28,8 +28,8 @@ class Shift(models.Model):
     )
 
     city = models.ForeignKey(City, null=True, blank=True)
-    state = models.ForeignKey(Region, null=True, blank=True)
     country = models.ForeignKey(Country, null=True, blank=True)
+    state = models.ForeignKey(Region, null=True, blank=True)
     venue = models.CharField(
         max_length=30,
         validators=[
