@@ -39,7 +39,7 @@ class FormFields(LiveServerTestCase):
         cls.driver.maximize_window()
         cls.settings = EventsPage(cls.driver)
         cls.authentication_page = AuthenticationPage(cls.driver)
-        cls.wait = WebDriverWait(cls.driver, 5)
+        cls.wait = WebDriverWait(cls.driver, 50)
         super(FormFields, cls).setUpClass()
 
     def setUp(self):
