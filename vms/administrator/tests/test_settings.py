@@ -308,7 +308,7 @@ class Settings(LiveServerTestCase):
             edited_event['name']
         )
 
-    def test_create_and_edit_event_with_invalid_start_date(self):
+    def test_create_and_edit_event_with_invalid_start_date():
         """
         Test event creation and edit with invalid start date.
         """
@@ -332,7 +332,7 @@ class Settings(LiveServerTestCase):
             self.live_server_url + settings.event_list_page
         )
         self.assertEqual(
-            settings.get_warning_context(self),
+            settings.get_warning_context(),
             "Start date should be today's date or later."
         )
 
