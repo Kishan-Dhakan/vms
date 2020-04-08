@@ -308,7 +308,7 @@ class Settings(LiveServerTestCase):
             edited_event['name']
         )
 
-    def test_create_and_edit_event_with_invalid_start_date():
+    def test_create_and_edit_event_with_invalid_start_date(self):
         """
         Test event creation and edit with invalid start date.
         """
